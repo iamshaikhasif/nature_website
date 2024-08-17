@@ -1,0 +1,36 @@
+* {
+    font-family: Futura;
+    color: black;
+}
+
+.boldTextHeader {
+    font-weight: 700;
+    font-size: 29px;
+    color: black;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    height: 260px;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0%;
+    padding: 10px 20px;
+}
+.textWhite {
+    color: white;
+    font-size: 14px;
+    line-height: 0.6rem;
+}
+.textWhiteBold {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0.6rem;
+}
+.image-container img{
+    object-fit: fill;
+}
