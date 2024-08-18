@@ -1,6 +1,21 @@
 * {
     font-family: Futura;
     color: black;
+    padding: 0px;
+}
+/* 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px lightslategray;
+    margin: 0 10px;
+    text-align: center;
+    color: white;
 }
 
 .boldTextHeader {
@@ -9,10 +24,35 @@
     color: black;
 }
 
+.header-image {
+    position: relative;
+    display: inline-block;
+    height: 480px;
+    width: 100%;
+}
+
 .image-container {
     position: relative;
     display: inline-block;
     height: 260px;
+}
+
+.navbarContainer {
+    position: absolute;
+    top: 0%;
+    padding: 10px;
+}
+
+.header-mid {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+
+.header-end {
+    position: absolute;
+    top: 90%;
+    width: 100%;
 }
 
 .overlay-text {
@@ -20,17 +60,54 @@
     bottom: 0%;
     padding: 10px 20px;
 }
+
 .textWhite {
     color: white;
     font-size: 14px;
     line-height: 0.6rem;
 }
+
 .textWhiteBold {
     color: white;
     font-size: 16px;
     font-weight: 600;
     line-height: 0.6rem;
 }
-.image-container img{
+
+.image-container img {
     object-fit: fill;
+}
+
+.box-round-left {
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.box-round-right {
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.box-white {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.box-trans {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    background-color: white;
+    opacity: 0.4;
+}
+
+.button {
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    background-color: white;
+    border: 0px;
+    border-radius: 90px;
 }
